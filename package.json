@@ -19,12 +19,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-phantom/phantom-request.git"
+    "url": "git+https://github.com/dev-phantom/phantom-request-docs.git"
   },
   "bugs": {
-    "url": "https://github.com/dev-phantom/phantom-request/issues"
+    "url": "https://github.com/dev-phantom/phantom-request-docs/issues"
   },
-  "homepage": "https://github.com/dev-phantom/phantom-request#readme",
+  "homepage": "https://github.com/dev-phantom/phantom-request-docs#readme",
   "dependencies": {
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",

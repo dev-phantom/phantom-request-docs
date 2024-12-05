@@ -1,0 +1,8 @@
+{
+  "label": "Making Request",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to make HTTP requests in your application using the PhantomRequest library. This guide covers the essentials of setting up requests, handling responses, and dealing with authentication, error handling, and optional configurations. Get started in just 5 minutes!"
+  }
+}

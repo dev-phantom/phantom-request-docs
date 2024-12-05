@@ -15,7 +15,7 @@ export function HomepageHeader() {
       >
         <div className="container mx-auto text-center py-32 px-5">
           <motion.h1
-            className="text-4xl font-extrabold tracking-tight sm:text-6xl dark:text-gray-800"
+            className="text-2xl font-extrabold tracking-tight sm:text-6xl dark:text-gray-800"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
@@ -26,7 +26,7 @@ export function HomepageHeader() {
             </span>
           </motion.h1>
           <motion.p
-            className="mt-5 text-lg sm:text-xl text-gray-300 dark:text-gray-700"
+            className="mt-5 text-md sm:text-xl text-gray-300 dark:text-gray-700"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -35,7 +35,7 @@ export function HomepageHeader() {
             who value simplicity and speed.
           </motion.p>
           <motion.div
-            className="mt-8 flex justify-center gap-4"
+            className="mt-8 flex justify-center flex-col sm:flex-row gap-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}

@@ -14,7 +14,7 @@ export function Installation() {
             Installation
           </motion.h2>
           <motion.p
-            className="mt-6 text-lg text-center text-gray-700 dark:text-gray-300 sm:text-xl"
+            className="mt-6 text-md text-center text-gray-700 dark:text-gray-300 sm:text-xl"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -27,7 +27,7 @@ export function Installation() {
             via npm or yarn:
           </motion.p>
           <motion.div
-            className="mt-10 bg-gray-100 dark:bg-gray-800 rounded-xl p-6 sm:p-8 shadow-lg"
+            className="mt-10 bg-gray-100 dark:bg-gray-800 rounded-xl p-4 sm:p-8 shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

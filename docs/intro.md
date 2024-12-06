@@ -38,6 +38,8 @@ yarn add phantom-request
 - **Authorization Support:** Handles custom headers and authorization seamlessly.  
 - **Flexible ID Handling:** Collects `id` as a parameter for PUT and PATCH requests.  
 - **DELETE Requests:** Accepts `id` either in the request body or as a parameter for DELETE requests.  
+- **Global Phantom Config:** Set global API configuration, including default parameters and routes, for all `phantomGet`, `phantomPost`, `phantomPut`, `phantomDelete`, and `phantomPatch` requests. This allows centralized management of API settings, making it easier to handle common configurations across your application. You can configure the global settings in a `phantom.config.js` file or directly within `main.jsx`.
+
 
 --- 
 
